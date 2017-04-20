@@ -4,3 +4,15 @@
   width: 350px;
   margin: 2px;
 }
+
+.vertical-text-right1 {
+	transform: rotate(270deg);
+	//transform-origin: right bottom 0;
+  transform-origin: 350px 30px;
+}
+
+.vertical-text-right2 {
+	transform: rotate(270deg);
+	//transform-origin: right bottom 0;
+  transform-origin: 330px 30px;
+}
