@@ -1,6 +1,6 @@
-console.log("main is online")
+import $ from "jquery";
+
 var fred = document.getElementById("container")
-console.log(fred)
 
 function add(event){
   console.log(event)
