@@ -17,7 +17,7 @@ function add(event){
 }
 
 function convertYtoDollars(yCoord){
-  return Math.round(((yCoord - 100) / 6) * 100) / 100
+  return Math.round((-(yCoord - 400)/4) * 100) / 100
 }
 
 function convertXtoCategory(xCoord){
