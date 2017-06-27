@@ -2,11 +2,21 @@
 //   border: 1px dotted red;
 // }
 
+@import "bulma";
+
+#confirmButton{
+  font-size: 19px;
+}
+
 #container {
   border: 1px solid black;
-  height: 400px;
+  height: 409px;
   width: 350px;
   margin: 2px;
+}
+
+.spacer1 {
+  height: 10px;
 }
 
 .align {
