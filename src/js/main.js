@@ -18,7 +18,7 @@ function add(event){
   dollarPick = (convertYtoDollars(event.clientY));
   categoryPick = (convertXtoCategory(event.clientX));
 
-  output.innerHTML = `this purchase is $${dollarPick}<br>
+  output.innerHTML = `$${dollarPick} for ${categoryPick}<br>
                       you will spend $${Math.round(100 * dollarPick * 7) / 100} per week<br>
                       you will spend $${Math.round(100 * dollarPick * 30.5) / 100} per month<br>
                       you will spend $${Math.round(100 * dollarPick * 365.25) / 100} per year<br>
@@ -31,7 +31,7 @@ function postData(event){
 }
 
 function convertYtoDollars(yCoord){
-  return Math.round((-(yCoord - 400)/4) * 100) / 100
+  return Math.round((-(yCoord - 376)/4) * 100) / 100
 }
 
 function convertXtoCategory(xCoord){
